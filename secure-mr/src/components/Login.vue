@@ -1,7 +1,7 @@
 <template>
 <img>
     <div id="login">
-    <img src="secure-mr.logo" alt="Logo" width="500" height="600">
+    <img src="../assets/secure-mr-logo.png" alt="Logo" width="500" height="600">
         <h1>Login</h1>
         <input type="text" name="username" v-model="input.username" placeholder="Username" />
         <input type="password" name="password" v-model="input.password" placeholder="Password" />
